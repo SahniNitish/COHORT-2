@@ -37,6 +37,8 @@ function Baking(Dough , callback){
 
 
 
+//This code below is Callback hell it can be more than 3+ hard to read the code so its better practice 
+//to not use. so we use promises to remove this problem for callback hell or nested callback loops
 
 getCheese((cheese)=>{
     makeDough(cheese ,(Dough)=>{
